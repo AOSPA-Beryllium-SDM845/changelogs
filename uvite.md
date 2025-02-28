@@ -1,0 +1,13 @@
+## 28 Feb 2025
+- Initial release
+- device: Retrofit dynamic partitions
+- device: Switch to Wi-Fi AIDL
+- device: Move to QTI health AIDL service
+- device: Build Lineage Health HAL
+- device: Override QTI AIDL Lights HAL
+- device: Disable WPA3-SAE & OWE SoftAP
+- device: Ship prebuilt libprotobuf-cpp
+- kernel: power: qpnp-smb2: Implement battery charging_enabled node
+- kernel: Merge tag 'LA.UM.8.3.c25-09700-sdm845.0'
+- audio-kernel: Merge tag 'LA.UM.8.3.c25-09700-sdm845.0'
+- qca-wifi-host-cmn: Merge tag 'LA.UM.8.3.c25-09700-sdm845.0'
