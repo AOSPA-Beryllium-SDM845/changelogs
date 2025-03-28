@@ -1,3 +1,55 @@
+## 28 March 2025
+### Source
+- February 2025 Security Patch
+- Remove abstruct
+- Remove microsoft packages
+- Added GameSpace
+- Added LMOFreeform and sidebar
+- Fix bad Youtube animation when moving to PIP
+- Show daily data usage in QS footer
+- Add support for per-app volume
+- Add support for window ignore secure
+- Add hotspot toggle in QS internet dialog
+- Enable Predictive Back Gesture by default
+- Allow APK signature scheme v1 for API 30+ apps
+- Enable new biometrics animation
+- Enable production-ready feature flags
+- Add advanced reboot options
+- Spoof Google Photos to Pixel XL (unlimited google photos)
+- Add toggle for memory info view in recent apps
+- Add Cloudflare, AdGuard, Google DNS as a private DNS provider
+- Move Extra Dim feature to Display settings
+- Move Notch Cutout to Display settings
+- Move density options to Display settings
+
+### Device
+- Import perf configs from qcom/common
+- parts: Remove thermal tile
+- parts: Remove uses-sdk
+- parts: Add an exported flag in manifest
+- parts: Add support for the predictive back gesture
+- Set kernel target level to 4
+- Add missing FCM
+- parts: Rename package to AOSPA
+- overlay: Change wifi tether ssid default to POCO F1
+- Add custom init to override properties
+- media: Set higher priority to c2 than OMX
+- Remove software omx codec references
+- Use AOSP default Codec2/OMX ranks
+- Remove software OMX blobs
+- Do not override ro.vendor.gpu.available_frequencies
+- Do not override ro.opengles.version
+- overlay: Drop explicit 'sdk_version' declaration
+- Remove OMX audio codecs
+- Disable redir_party_num
+- Added MIUI Camera
+- sepolicy: Address thermal profiles denials
+- kernel: Enable Block IO Controller
+- kernel: msm: kgsl: Remove POPP
+- kernel: UPSTREAM: HID: core: zero-initialize the report buffer
+- kernel: BACKPORT: disp: msm: dsi: add null pointer check in dsi_display_dev_remove
+- kernel: qcacld-5.0: Fix the possible OOB write in country IE unpack
+
 ## 28 Feb 2025
 - Initial release
 - device: Retrofit dynamic partitions
